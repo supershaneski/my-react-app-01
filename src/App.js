@@ -8,10 +8,10 @@ function App() {
   return (
     <div className="App">
       <div>
-        Default: <Clock />
+        Default (no props): <Clock />
       </div>
       <div>
-        Using props to change text color: <Clock txtColor="#006600" />
+        Using props to change text color (txtColor="#006600"): <Clock txtColor="#006600" />
       </div>      
     </div>
   );
